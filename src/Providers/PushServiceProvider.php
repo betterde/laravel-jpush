@@ -23,8 +23,13 @@ class PushServiceProvider extends ServiceProvider
          * 发布配置文件
          */
         $this->publishes([
-            __DIR__.'/../../config/jpush.php' => config_path('jpush.php'),
-        ], 'jpush');
+            __DIR__ . '/../../config/jpush.php' => config_path('jpush.php'),
+        ], 'jpush-config');
+
+        $this->publishes([
+            __DIR__ . '/../Jobs/ScheduleGenerator.php' => app_path('Jobs/ScheduleGenerator.php'),
+            __DIR__ . '/../Jobs/ScheduleHandler.php' => app_path('Jobs/ScheduleHandler.php')
+        ], 'jpush-jobs');
     }
 
     /**
