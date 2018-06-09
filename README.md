@@ -20,7 +20,7 @@ Jpush SDK for Laravel framework
 
 ### Installation
 ```terminal
-composer require betterde/laravel-jpusher
+composer require betterde/laravel-jpush
 ```
 
 ### Config
