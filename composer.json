@@ -1,0 +1,34 @@
+{
+    "name": "betterde/laravel-jpush",
+    "description": "Jpush SDK for Laravel framework",
+    "keywords": ["jpush", "laravel-jpush", "jpush-sdk"],
+    "type": "library",
+    "require": {
+        "php": "^7.1.3",
+        "jpush/jpush": "^3.6",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "betterde",
+            "email": "george@betterde.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Betterde\\Laravel\\Jpush\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Betterde\\Laravel\\Jpush\\Providers\\PushServiceProvider"
+            ],
+            "aliases": {
+                "Push": "Betterde\\Laravel\\Jpush\\Facade\\Push"
+            }
+        }
+    }
+}
