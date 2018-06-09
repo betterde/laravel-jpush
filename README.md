@@ -2,6 +2,11 @@
 
 Jpush SDK for Laravel framework
 
+[![Latest Stable Version](https://poser.pugx.org/betterde/laravel-jpush/v/stable)](https://packagist.org/packages/betterde/laravel-jpush)
+[![Total Downloads](https://poser.pugx.org/betterde/laravel-jpush/downloads)](https://packagist.org/packages/betterde/laravel-jpush)
+[![Latest Unstable Version](https://poser.pugx.org/betterde/laravel-jpush/v/unstable)](https://packagist.org/packages/betterde/laravel-jpush)
+[![License](https://poser.pugx.org/betterde/laravel-jpush/license)](https://packagist.org/packages/betterde/laravel-jpush)
+
 ## Table of Contents
 
 - <a href="#introduction">Introduction</a>
